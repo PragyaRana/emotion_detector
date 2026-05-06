@@ -23,6 +23,11 @@ STEP 4 - Press 'q' to quit.
 
 EMOTIONS DETECTED:
    happy, sad, angry, surprise, fear, disgust, neutral
+<!-- 
+The issue is NumPy 2.0 got installed but other packages need NumPy 1.x. Run this one fix command:
+bashpip install "numpy<2" --force-reinstall
+Then immediately run:
+bashpython emotion_detector.py -->
 
 NOTE:
 - First run may take a minute to download AI models (needs internet)

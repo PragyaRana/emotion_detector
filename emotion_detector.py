@@ -12,7 +12,7 @@ while True:
         break
 
     try:
-        # Analyze emotion
+        # Analyze emotions
         result = DeepFace.analyze(frame, actions=['emotion'], enforce_detection=False)
         emotion = result[0]['dominant_emotion']
 

@@ -1,7 +1,7 @@
 import cv2
 from deepface import DeepFace
 
-# Opens the webcam
+# Opens the webcam--
 cap = cv2.VideoCapture(0)
 
 print("Emotion Detector Started. Press 'q' to quit.")
@@ -12,7 +12,7 @@ while True:
         break
 
     try:
-        # Analyze emotions
+        # Analyze emotion
         result = DeepFace.analyze(frame, actions=['emotion'], enforce_detection=False)
         emotion = result[0]['dominant_emotion']
 

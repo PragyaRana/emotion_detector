@@ -1,7 +1,7 @@
 import cv2
 from deepface import DeepFace
 
-# Opens the webcam--
+# Opens the webcam  
 cap = cv2.VideoCapture(0)
 
 print("Emotion Detector Started. Press 'q' to quit.")
